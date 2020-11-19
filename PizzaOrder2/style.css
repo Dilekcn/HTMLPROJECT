@@ -1,0 +1,46 @@
+ body{
+    background-image: url(https://ichef.bbci.co.uk/news/800/cpsprodpb/4016/production/_112360461_gettyimages-1083704790.jpg);
+    background-repeat: repeat-y;
+    background-color: rgb(0,0,0,0.1);
+    width: fit-content;
+    background-size: 100%;
+    background-origin: content-box;
+} 
+h1{
+    color:  maroon;
+    font-size: 80px;
+    font-family: monospace;
+    text-align: center;
+    background-color: orange;
+    font-weight: bolder;  
+}
+h2{
+    color: maroon;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+fieldset{
+    font-family: cursive;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: x-large;
+    border: dotted maroon;
+    width: 50%;
+    background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/376535/1160/864/m1/fpnw/wm1/gurza_0846-.jpg?1424960176&s=171487c22b760df9e12b8379b0b48ac1);
+
+}
+legend{
+    background-color: orange;
+}
+label{
+    padding: 10px;
+}
+button{
+    font-family: cursive;
+    color: darkred;
+    font-weight: bolder;
+   background-origin: padding-box;
+   border: dotted darkred;
+   font-size: 30px;
+}

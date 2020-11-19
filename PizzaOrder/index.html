@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <img height="400px" width="100%" src="https://media.istockphoto.com/photos/close-up-view-of-pizza-with-fresh-basil-and-olives-picture-id154411523" alt="">
+    <h1>Pizza Order</h1>
+<fieldset>
+    <legend> Pizza Type </legend>
+    <h4>Choose Size:</h4>
+    <input type="radio" id="size" name="pizza" value="pizza">
+<label for="size"> Kids 7"</label>
+
+<input type="radio" id="size1" name="pizza" value="pizza">
+<label for="size1"> Small 9"</label>
+
+<input type="radio" id="size2" name="pizza" value="pizza">
+<label for="size2"> Medium 11"</label>
+
+<input type="radio" id="size3" name="pizza" value="pizza">
+<label for="size3"> Large 15"</label>
+
+<h4>Choose Base</h4>
+
+<input type="radio" id="base" name="pizza" value="pizza">
+<label for="base"> Thin Base</label>
+
+<input type="radio" id="base1" name="pizza" value="pizza">
+<label for="base1"> Think Base</label>
+
+<h4>Choose Topping</h4>
+<h5>Meat</h5>
+<input type="radio" id="top" name="pizza" value="pizza">
+<label for="top"> Bacon</label>
+<input type="radio" id="top1" name="pizza" value="pizza">
+<label for="top1"> Perperoni</label>
+<input type="radio" id="top3" name="pizza" value="pizza">
+<label for="top3"> Chicken</label><br>
+
+<input type="radio" id="top4" name="pizza" value="pizza">
+<label for="top4"> Salami</label>
+<input type="radio" id="top5" name="pizza" value="pizza">
+<label for="top5"> Ham</label>
+<input type="radio" id="top6" name="pizza" value="pizza">
+<label for="top6"> Meatballs</label>
+
+<h5>Vegatables</h5>
+<input type="radio" id="veg" name="pizza" value="pizza">
+<label for="veg"> Tomatoes</label>
+<input type="radio" id="veg1" name="pizza" value="pizza">
+<label for="veg1"> Onion</label>
+<input type="radio" id="veg3" name="pizza" value="pizza">
+<label for="veg3"> Chilli</label>
+
+<input type="radio" id="veg4" name="pizza" value="pizza">
+<label for="veg4"> Mushroom</label> <br>
+<input type="radio" id="veg5" name="pizza" value="pizza">
+<label for="veg5"> Pickles</label>
+<input type="radio" id="veg6" name="pizza" value="pizza">
+<label for="veg6"> Sweetcorn</label>
+<input type="radio" id="veg7" name="pizza" value="pizza">
+<label for="veg7"> Pepper</label>
+<input type="radio" id="veg8" name="pizza" value="pizza">
+<label for="veg8"> Pineapple</label>
+
+</fieldset>
+
+<fieldset>
+    <legend> Details</legend>
+    <h5>All fields are required to submit your order</h5>
+
+    <label for="name">First Name</label>
+<input type="text" name="name" id="name" placeholder="First Name" , required><br>
+<label for="lastname">Last Name</label>
+<input type="text" name="lastname" id="lastname" placeholder="Last Name" , required><br>
+
+<label for="mail">Email Address</label>
+<input type="email" name="email" id="mail" placeholder="Email Address" , required><br>
+
+<label for="phone">Phone Number</label>
+<input type="tel" name="phone" id="phone"  placeholder="Phone Number" , required><br>
+
+<label for="textarea">Address</label>
+<textarea name="" id="textarea" cols="30" rows="10" placeholder="Enter Address" ></textarea> <br>
+
+<label for="del">Delivery Time</label>
+<select name="" id="del">
+<optgroup label ="Eat In">
+    <option value="Eat In">Eat In</option>
+</optgroup>
+<optgroup label ="Take Away">
+    <option value="Take Away">ASAP</option>
+    <option value="30min">30 Minutes</option>
+    <option value="45min">45 Minutes</option>
+    <option value="1hour">1 Hour</option>
+
+</optgroup>
+</select>
+</fieldset>
+<fieldset>
+    <legend>Payment</legend>
+    <input type="radio" id="pay">
+    <label for="pay">Pay on Arrive</label>
+    <input type="radio" id="now">
+    <label for="now">Pay Now</label>
+
+    <p>Bank Details</p><br>
+
+<label for="cart">Cart Number</label>
+<input type="text" id="cart" placeholder="16 digits"><br>
+<label for="dat">Expiry Data</label>
+<input type="text" id="dat" placeholder="**/**"> <br>
+<label for="svv">Cart Number</label>
+<input type="text" id="svv" placeholder="***"> <br>
+</fieldset>
+ <!--The button that submits everything by email-->
+ <input type="submit" value="Place your Order">
+
+</body>
+</html>
